@@ -1,0 +1,675 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 15775 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Seunghwan/Desktop/Seunghwan/Programs/vslike-game/vslike-game
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60117
+Successfully changed project path to: C:/Users/Seunghwan/Desktop/Seunghwan/Programs/vslike-game/vslike-game
+C:/Users/Seunghwan/Desktop/Seunghwan/Programs/vslike-game/vslike-game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15320] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1198575590 [EditorId] 1198575590 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-36D3A9B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15320] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1198575590 [EditorId] 1198575590 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-36D3A9B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 11.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Seunghwan/Desktop/Seunghwan/Programs/vslike-game/vslike-game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009055 seconds.
+- Loaded All Assemblies, in  0.342 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.269 seconds
+Domain Reload Profiling: 609ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (269ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 4.52 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 1187ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.7 KB). Loaded Objects now: 4488.
+Memory consumption went from 150.0 MB to 149.7 MB.
+Total: 3.517900 ms (FindLiveObjects: 0.262300 ms CreateObjectMapping: 0.194000 ms MarkObjects: 2.855700 ms  DeleteObjects: 0.204800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 652852.748192 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio
+  artifactKey: Guid(bb0ba06cb3c44dc479d6c9d7b2caa144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio using Guid(bb0ba06cb3c44dc479d6c9d7b2caa144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70ef6039422ed804074c3e41637f9b3') in 0.002679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 152.851394 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(27d82b7f7b95d484b981d3a0a20a05d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(27d82b7f7b95d484b981d3a0a20a05d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0049af8365b67975e12eef6fe70d7c') in 0.000908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.657141 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(4db6e94fbf12ad54296da513adc88490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(4db6e94fbf12ad54296da513adc88490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a76971e29315965676da9d5e0843760') in 0.000480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.970811 seconds.
+  path: Assets/Images
+  artifactKey: Guid(cea0269bc56a9184e99d210dc720c82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(cea0269bc56a9184e99d210dc720c82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba15b58df74ba5bb5a755f383fd78df') in 0.000859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.748194 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(e7f587411f0cd6941984fceeac493f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(e7f587411f0cd6941984fceeac493f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1659bc93e203f628272155af1ce7b285') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.651564 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(db114a947addee34faca02d1365f1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(db114a947addee34faca02d1365f1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0738bfaad3d2655178299c02529145') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.665472 seconds.
+  path: Assets/Effects
+  artifactKey: Guid(a0158debed798c54ab9170b615050d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects using Guid(a0158debed798c54ab9170b615050d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eaa205bdaf7248042cd7a23212bb56') in 0.000649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.189823 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(52cab7e82db79ea48a16bbeb9f841d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(52cab7e82db79ea48a16bbeb9f841d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995955707eb2d532d528da2925cce547') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 60.053062 seconds.
+  path: Assets/Arts/Materials
+  artifactKey: Guid(202d3e93eaecede41873326aaa4b7aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Materials using Guid(202d3e93eaecede41873326aaa4b7aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de7245bb5dd975f7675da691da77247') in 0.000715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.866879 seconds.
+  path: Assets/Arts/Fonts
+  artifactKey: Guid(326a509fbc4b65f4d825b3bd6ced406a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Fonts using Guid(326a509fbc4b65f4d825b3bd6ced406a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c57ef5e351bac12610b14a921e89f3') in 0.000505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.948863 seconds.
+  path: Assets/Arts/Sprites
+  artifactKey: Guid(4da3793456f7d274ba28761472254416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Sprites using Guid(4da3793456f7d274ba28761472254416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b3841d0a0c9ed03b7f90c54a05558c') in 0.000644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.282959 seconds.
+  path: Assets/Arts/Textures
+  artifactKey: Guid(8e95248e2419f3746936c2b79404d68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Textures using Guid(8e95248e2419f3746936c2b79404d68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a75b45925448bbcf4629978e9e80d4c') in 0.000742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 732.505420 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(2eb653046d3776f4e97701293c332317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(2eb653046d3776f4e97701293c332317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af175767750a21dfe5afdf5b7c2856a8') in 0.000494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 586.832819 seconds.
+  path: Assets/Arts/Tiles/Main Palette.prefab
+  artifactKey: Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/Main Palette.prefab using Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28c8f7c65223263e77894f392a2cf9a') in 0.098873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.923133 seconds.
+  path: Assets/Arts/Tiles/terrain.png
+  artifactKey: Guid(ec988086d06590f4590acf8612f47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/terrain.png using Guid(ec988086d06590f4590acf8612f47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d8d62a5aab92b8ae8b5a0beed3625e') in 0.040219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.279873 seconds.
+  path: Assets/Arts/Tiles/Main Palette.prefab
+  artifactKey: Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/Main Palette.prefab using Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9cf4d1b40f6425d455c8429fe0c9a6') in 0.006493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 29.513623 seconds.
+  path: Assets/Arts/Tiles/main_tile.png
+  artifactKey: Guid(ec988086d06590f4590acf8612f47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/main_tile.png using Guid(ec988086d06590f4590acf8612f47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4c1d9f4191407dcca3420a00ce1660') in 0.019653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.849714 seconds.
+  path: Assets/Arts/Tiles/bg_tile.png
+  artifactKey: Guid(ec988086d06590f4590acf8612f47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/bg_tile.png using Guid(ec988086d06590f4590acf8612f47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8412cc260522b56694a95323878376') in 0.017489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.033380 seconds.
+  path: Assets/Arts/Tiles/bg_tile.asset
+  artifactKey: Guid(385e1df0f4daee64d976d7cd9e801e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/bg_tile.asset using Guid(385e1df0f4daee64d976d7cd9e801e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71726e34adfaa2fbb181c1e6d5dbb3e') in 0.017248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 51.261747 seconds.
+  path: Assets/Arts/Tiles/Main Palette.prefab
+  artifactKey: Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/Main Palette.prefab using Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdfe82ea05479c1d95d74b6d06be449') in 0.008422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 6.007258 seconds.
+  path: Assets/Arts/Tiles/Main Palette.prefab
+  artifactKey: Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/Main Palette.prefab using Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafe742d000b6060d2b9b3531f2f3208') in 0.008854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 123.020680 seconds.
+  path: Assets/Arts/Tiles/Main Palette.prefab
+  artifactKey: Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/Main Palette.prefab using Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acae3cd5fe0e2b5edd7bb8863d10b30') in 0.006040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 36.729332 seconds.
+  path: Assets/Arts/Tiles/bg_tile.png
+  artifactKey: Guid(ec988086d06590f4590acf8612f47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Tiles/bg_tile.png using Guid(ec988086d06590f4590acf8612f47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c211c13945d64818b23e0b4fc52aec8') in 0.012406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 46.675238 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - dagger throw.wav
+  artifactKey: Guid(d9a32329d4159144099db2e675bf1527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - dagger throw.wav using Guid(d9a32329d4159144099db2e675bf1527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2121a3ed6afaf8599e9376c8f27eed11') in 0.095940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Art/Gradient.png
+  artifactKey: Guid(3994d00805eb6a44d9c00e7a66fc3f14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Art/Gradient.png using Guid(3994d00805eb6a44d9c00e7a66fc3f14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c8aa85d963916e1c056c770b3e1481a') in 0.047539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Arts/Textures
+  artifactKey: Guid(8e95248e2419f3746936c2b79404d68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Textures using Guid(8e95248e2419f3746936c2b79404d68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cbb7c1bdc7825c3eaf724dd39d1a223') in 0.002580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Arts/Tiles/Main Palette.prefab
+  artifactKey: Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Tiles/Main Palette.prefab using Guid(7072dd11e68afa74b84ef02ab560e77b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '032565f5c4829a4d28770fd38c91f866') in 0.016296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Art/Zone Weapon Effect.png
+  artifactKey: Guid(0c78c8dd7f0745146b5b5c4fad8288e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Art/Zone Weapon Effect.png using Guid(0c78c8dd7f0745146b5b5c4fad8288e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0b3567e8cd05ef629068870cca53e82') in 0.019653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX/enemy hit.wav
+  artifactKey: Guid(4acb4058b052a1945b287e9b999b693d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX/enemy hit.wav using Guid(4acb4058b052a1945b287e9b999b693d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fc9b6ef1cf7fb5afae12ffe7018d607') in 0.028059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - fireball spawn.wav
+  artifactKey: Guid(a3e641690f752224d801b16969568587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - fireball spawn.wav using Guid(a3e641690f752224d801b16969568587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cacc9e4e26ba2de36bb11114e4b8562') in 0.027729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Fonts/Kenney Fonts
+  artifactKey: Guid(142cbf5e0637857478f6914c757fdb68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Fonts/Kenney Fonts using Guid(142cbf5e0637857478f6914c757fdb68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8f892337ccc6008179931fd54016b9a') in 0.003119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX/player death.wav
+  artifactKey: Guid(777d04cb3582b774382ee99a0595b30e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX/player death.wav using Guid(777d04cb3582b774382ee99a0595b30e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4642aaa66e7455637c32257f797f49d4') in 0.029976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Fonts
+  artifactKey: Guid(7aa061c704c89c2449caac8c88d2d082) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Fonts using Guid(7aa061c704c89c2449caac8c88d2d082) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c7e7a35c40c5c46b15e4b3b838998eb') in 0.003008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/Music
+  artifactKey: Guid(2a085f30e8644ac46970ea5dd3a6144b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/Music using Guid(2a085f30e8644ac46970ea5dd3a6144b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '126e19f10f0f18265f669c7948fd9454') in 0.002229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - dagger impact.wav
+  artifactKey: Guid(d686afed845a3c64fb3deaef2543fee2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - dagger impact.wav using Guid(d686afed845a3c64fb3deaef2543fee2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e2c33b755c761ab9bcb8aa62db13530') in 0.027360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Arts/Sprites
+  artifactKey: Guid(4da3793456f7d274ba28761472254416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Sprites using Guid(4da3793456f7d274ba28761472254416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3dd13065b10f9f3b916610c45aa42eb') in 0.004258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - axe throw.wav
+  artifactKey: Guid(a2811d3b7dc55b54cb0a00316871a52d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - axe throw.wav using Guid(a2811d3b7dc55b54cb0a00316871a52d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '373252be62c38b77ae15a6acf7d8434f') in 0.032273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(4db6e94fbf12ad54296da513adc88490) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs using Guid(4db6e94fbf12ad54296da513adc88490) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f92f23620c7535adf025331864a0f06e') in 0.003958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/Music/Track 4.ogg
+  artifactKey: Guid(314eae84901f88a4186210c5bdac8c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/Music/Track 4.ogg using Guid(314eae84901f88a4186210c5bdac8c93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c71160d693b6bd7f7258d5a03bd522ba') in 0.161149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Arts/Materials
+  artifactKey: Guid(202d3e93eaecede41873326aaa4b7aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Materials using Guid(202d3e93eaecede41873326aaa4b7aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ab2fc1f64e374e7bcb5697bfd66e69e') in 0.002474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX
+  artifactKey: Guid(70d3e42b043037d419a9f93a704682c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX using Guid(70d3e42b043037d419a9f93a704682c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fe9dab0b4811055f07bfff02e41f8bd') in 0.002191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Art/Dungeon Crawl Asset Licence/LICENSE.txt
+  artifactKey: Guid(f100e1c46cf321844a96ecb55b22ea47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Art/Dungeon Crawl Asset Licence/LICENSE.txt using Guid(f100e1c46cf321844a96ecb55b22ea47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f41d789410bf628a574e12797f27f6a') in 0.002931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Fonts/Kenney Fonts/Kenney Pixel.ttf
+  artifactKey: Guid(10798a15cd36cc246b48464e7090bc5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Fonts/Kenney Fonts/Kenney Pixel.ttf using Guid(10798a15cd36cc246b48464e7090bc5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30479981215e08b2c5e15767c8e786f6') in 0.014953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(52cab7e82db79ea48a16bbeb9f841d0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources using Guid(52cab7e82db79ea48a16bbeb9f841d0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3cc8fb7bc37e54b1dfff7ca427190ae') in 0.003389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Arts/Tiles
+  artifactKey: Guid(19a359bb1c03e5d47b86b0801d05ebeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Tiles using Guid(19a359bb1c03e5d47b86b0801d05ebeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47235579ff473b8e56539718f9cd601a') in 0.002408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(27d82b7f7b95d484b981d3a0a20a05d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts using Guid(27d82b7f7b95d484b981d3a0a20a05d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1859e151d1fb87bc0b0521f560f40480') in 0.002846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Art/Dungeon Crawl Asset Licence/README.txt
+  artifactKey: Guid(2840bba347fe28e42bd77d239c0814f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Art/Dungeon Crawl Asset Licence/README.txt using Guid(2840bba347fe28e42bd77d239c0814f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0de4a4ca8c3ca9dd13635edd0fd378c7') in 0.003112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/Music/Track 2.ogg
+  artifactKey: Guid(b3ce68ecc2cbc6a4ea64fd247c6c9206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/Music/Track 2.ogg using Guid(b3ce68ecc2cbc6a4ea64fd247c6c9206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '076a0b6039c9157ce8230763f904de64') in 0.111138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(2eb653046d3776f4e97701293c332317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Main.unity using Guid(2eb653046d3776f4e97701293c332317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c3dec5026bf8a88f29c78cd01326d56') in 0.003519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Fonts/Kenney Fonts/License.txt
+  artifactKey: Guid(2c359150dce67c045bca7f4ce272c624) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Fonts/Kenney Fonts/License.txt using Guid(2c359150dce67c045bca7f4ce272c624) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce6292e4397c78d1b4a1bce1f9b53bde') in 0.004418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Arts/Animations
+  artifactKey: Guid(db114a947addee34faca02d1365f1580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Animations using Guid(db114a947addee34faca02d1365f1580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0a1da0f0c27bf1cf0dbe81fd70cc0a4') in 0.002644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Arts
+  artifactKey: Guid(cea0269bc56a9184e99d210dc720c82e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts using Guid(cea0269bc56a9184e99d210dc720c82e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '676d81d1f1becc0c6e729c71bb44752a') in 0.002756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Effects
+  artifactKey: Guid(a0158debed798c54ab9170b615050d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Effects using Guid(a0158debed798c54ab9170b615050d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d7271f2560b7379fa77130f1339390b') in 0.002234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Arts/Fonts
+  artifactKey: Guid(326a509fbc4b65f4d825b3bd6ced406a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Arts/Fonts using Guid(326a509fbc4b65f4d825b3bd6ced406a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0701d8a8fa666c02b1b44f4a580cd5b6') in 0.002419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - sword.wav
+  artifactKey: Guid(3703b8d5981224c41a3c1b4e67fd7e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - sword.wav using Guid(3703b8d5981224c41a3c1b4e67fd7e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6510edd1212ec7a49e14a917951e4054') in 0.032993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - dagger throw 2.ogg
+  artifactKey: Guid(da7cfd529fe66614b906cc707a5dd343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX/weapon - dagger throw 2.ogg using Guid(da7cfd529fe66614b906cc707a5dd343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40c56a8c9789c0000db49400e00a5730') in 0.048467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Udemy Vampire Survival Assets/Audio/SFX/enemy death.wav
+  artifactKey: Guid(d45c1575fb54df5439e0f8de02b1138a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Udemy Vampire Survival Assets/Audio/SFX/enemy death.wav using Guid(d45c1575fb54df5439e0f8de02b1138a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '042e219b4a953ef6a71e0a832b6a7bcf') in 0.028012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
