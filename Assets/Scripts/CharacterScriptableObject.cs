@@ -7,7 +7,7 @@ public class CharacterScriptableObject : ScriptableObject
 {
     // Starting Weapon
 
-    // Health
+    // HP
     [SerializeField]
     float maxHP;
     public float MaxHP { get => maxHP; private set => maxHP = value; }
