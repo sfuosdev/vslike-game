@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class StatsController : MonoBehaviour
 {
-    public Text LevelText;
-    public Text HPText;
-    public Text XPText;
+    public TMP_Text LevelText;
+    public TMP_Text HPText;
+    public TMP_Text XPText;
 
     private PlayerStats playerStats;
     private float maxHP;
