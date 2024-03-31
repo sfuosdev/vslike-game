@@ -7,6 +7,8 @@ using UnityEngine;
 /// </summary>
 public class ProjectileWeaponBehaviour : MonoBehaviour
 {
+    public WeaponScriptableObject weaponData;
+
     protected Vector3 direction;
 
     public float destroyAfterSeconds;
@@ -31,7 +33,6 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
             scale.x = scale.x * -1;
             scale.y = scale.y * -1;
         }
-
         else if (dirx == 0 && diry < 0) //down
         {
             scale.y = scale.y * -1;
@@ -62,6 +63,6 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
         }
 
         transform.localScale = scale;
-        transform.rotation = Quaternion.Euler(rotation); 
+        transform.rotation = Quaternion.Euler(rotation);   
     }
 }
