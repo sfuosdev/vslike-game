@@ -334,6 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: f7cfbab3c112c5c41af5232081b7d078, type: 2}
+  currentHP: 0
   XP: 0
   level: 1
   XPCap: 0
@@ -85191,6 +85192,8 @@ MonoBehaviour:
   LevelText: {fileID: 1093209265}
   HPText: {fileID: 1562618249}
   XPText: {fileID: 800675518}
+  playerStats: {fileID: 0}
+  maxHP: 0
 --- !u!114 &1379783787
 MonoBehaviour:
   m_ObjectHideFlags: 0
