@@ -1,4 +1,5 @@
 # vslike-game
+<img width="1240" height="698" alt="image" src="https://github.com/user-attachments/assets/28fedce2-001f-44f9-af1e-c0199019b0f5" />
 
 
 
